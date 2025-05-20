@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		6CD981F82DDC7F660052F0E8 /* Supers-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Supers-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CD981F82DDC7F660052F0E8 /* Supers-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Supers-iOS.app"; path = "/Users/mananas/XCodeProjects/Supers-iOS/build/Debug-iphoneos/Supers-iOS.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		6CD9820A2DDC7F670052F0E8 /* Exceptions for "Supers-iOS" folder in "Supers-iOS" target */ = {
+		6CD982292DDC9B240052F0E8 /* Exceptions for "Supers-iOS" folder in "Supers-iOS" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -24,7 +24,7 @@
 		6CD981FA2DDC7F660052F0E8 /* Supers-iOS */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				6CD9820A2DDC7F670052F0E8 /* Exceptions for "Supers-iOS" folder in "Supers-iOS" target */,
+				6CD982292DDC9B240052F0E8 /* Exceptions for "Supers-iOS" folder in "Supers-iOS" target */,
 			);
 			path = "Supers-iOS";
 			sourceTree = "<group>";
@@ -46,16 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				6CD981FA2DDC7F660052F0E8 /* Supers-iOS */,
-				6CD981F92DDC7F660052F0E8 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		6CD981F92DDC7F660052F0E8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6CD981F82DDC7F660052F0E8 /* Supers-iOS.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,7 +99,7 @@
 			mainGroup = 6CD981EF2DDC7F660052F0E8;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 6CD981F92DDC7F660052F0E8 /* Products */;
+			productRefGroup = 6CD981EF2DDC7F660052F0E8;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
