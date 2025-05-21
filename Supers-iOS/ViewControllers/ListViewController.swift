@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDataSource {
+class ListViewController: UIViewController, UITableViewDataSource, UISearchBarDelegate {
     
     @IBOutlet weak var tableView: UITableView!
     
@@ -20,8 +20,21 @@ class ViewController: UIViewController, UITableViewDataSource {
         tableView.dataSource = self
         
         searchSuperheroesBy(name: "a")
+        
+        let searchController = UISearchController(searchResultsController: nil)
+        searchController.searchBar.delegate = self
+        self.navigationItem.searchController = searchController
+         
     }
     
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        searchSuperheroesBy(name: searchBar.text ?? "")
+    }
+    /*
+    func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
+       <#code#>
+    }
+     */
     func searchSuperheroesBy(name: String) {
         Task {
             superheroList = await SuperheroProvider.findSuperheroesByName(query: name)

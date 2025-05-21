@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		6CD981F82DDC7F660052F0E8 /* Supers-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Supers-iOS.app"; path = "/Users/mananas/XCodeProjects/Supers-iOS/build/Debug-iphoneos/Supers-iOS.app"; sourceTree = "<absolute>"; };
+		6CDE5FF02DDDD8ED00B19A91 /* Supers-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Supers-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -46,6 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				6CD981FA2DDC7F660052F0E8 /* Supers-iOS */,
+				6CDE5FF02DDDD8ED00B19A91 /* Supers-iOS.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,7 +72,7 @@
 			packageProductDependencies = (
 			);
 			productName = "Supers-iOS";
-			productReference = 6CD981F82DDC7F660052F0E8 /* Supers-iOS.app */;
+			productReference = 6CDE5FF02DDDD8ED00B19A91 /* Supers-iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
