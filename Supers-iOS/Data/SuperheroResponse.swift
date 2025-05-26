@@ -15,19 +15,19 @@ struct Superhero : Codable {
     let id: String
     let name: String
     let image: Image
-    //let biography: Biography
+    let biography: Biography
     //let work: Work
-    //let powerstats: Powerstats
+    let powerstats: Powerstats
     //let appearance: Appearance
 
 }
-/*
+
 struct Biography : Codable {
     let fullName: String
     let alterEgos: String
     let placeOfBirth: String
     let publisher: String
-    let alignment: String
+    let alignment: String?
     
     enum CodingKeys : String, CodingKey {
         case fullName = "full-name"
@@ -36,12 +36,13 @@ struct Biography : Codable {
         case publisher ,alignment
     }
 }
-
+/*
 struct Work : Codable {
     let occupation: String
     let base: String
     
 }
+ */
 
 struct Powerstats : Codable {
     let intelligence: String
@@ -52,7 +53,7 @@ struct Powerstats : Codable {
     let combat: String
     
 }
-
+/*
 struct Appearance: Codable {
     let gender: String
     let race: String

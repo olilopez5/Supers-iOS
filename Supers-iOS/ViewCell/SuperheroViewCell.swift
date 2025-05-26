@@ -17,6 +17,8 @@ class SuperheroViewCell: UITableViewCell {
         func render (superhero: Superhero) {
             nameLabel.text = superhero.name
             avatarImageView.loadFrom(url: superhero.image.url)
+            
+            nameLabel.backgroundColor = UIColor(named: superhero.biography.alignment!)
         }
 
         override func awakeFromNib() {

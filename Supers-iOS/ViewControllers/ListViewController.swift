@@ -44,6 +44,16 @@ class ListViewController: UIViewController, UITableViewDataSource, UISearchBarDe
             }
         }
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "detail" {
+            let detailVC = segue.destination as! DetailViewController
+            let indexPath = tableView.indexPathForSelectedRow!
+            let superhero = superheroList[indexPath.row]
+            detailVC.superhero = superhero
+            tableView.deselectRow(at: indexPath, animated: true)
+        }
+    }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         superheroList.count
