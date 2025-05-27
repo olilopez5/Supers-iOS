@@ -1,14 +1,14 @@
 //
-//  SuperheroViewCell.swift
+//  SuperheroCollectionViewCell.swift
 //  Supers-iOS
 //
-//  Created by Mañanas on 20/5/25.
+//  Created by Mañanas on 27/5/25.
 //
 
 import UIKit
 
-class SuperheroViewCell: UITableViewCell {
-
+class SuperheroCollectionViewCell: UICollectionViewCell {
+    
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var avatarImageView: UIImageView!
     
@@ -35,10 +35,8 @@ class SuperheroViewCell: UITableViewCell {
         }
              
 
-        override func setSelected(_ selected: Bool, animated: Bool) {
-            super.setSelected(selected, animated: animated)
-
+       
             // Configure the view for the selected state
-        }
+        
 
     }
